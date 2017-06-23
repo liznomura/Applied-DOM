@@ -157,7 +157,6 @@
     setMyLightClass.call(btn8, event, 'light-green');
    });
 
-
   /*
    * Add a click event listener to btn9
    * the handler method will be a fat arrow function expression
@@ -169,6 +168,7 @@
    *   and passing two aditional arguments, event and 'light-green'
    */
 
+   btn9.addEventListener(CLICK, (event) => setMyLightClass.call(btn9, event, 'light-green'));
 
   /*
    * Declare a new const named setLight10Green
