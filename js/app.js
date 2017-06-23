@@ -251,7 +251,7 @@
    */
 
    btn13.addEventListener(CLICK, function(event) {
-    setMyLightClass.bind(btn13).call(this, event, 'light-green');});
+    setMyLightClass.bind(btn13)(event, 'light-green');});
 
 
   /*
