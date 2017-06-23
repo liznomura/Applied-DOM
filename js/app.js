@@ -154,7 +154,7 @@
    */
 
    btn8.addEventListener(CLICK, function(event) {
-    setMyLightClass.call(btn8, event, 'light-green');
+    setMyLightClass.call(this, event, 'light-green');
    });
 
   /*
